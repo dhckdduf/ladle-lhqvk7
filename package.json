@@ -1,0 +1,26 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "ladle serve --port 4123",
+    "build": "ladle build",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@ladle/react": "^2.9.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.5.4"
+  },
+  "stackblitz": {
+    "env": {
+      "BROWSER": "none"
+    }
+  }
+}
